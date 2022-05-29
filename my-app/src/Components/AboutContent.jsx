@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const AboutContent = () => {
   return (
-    <>
+    <section id="about">
     <Box width='100%' height='100%'>
         <Box width='90%' height='80%' margin='auto'>
             <Flex>
@@ -58,7 +58,7 @@ const AboutContent = () => {
             </Flex>
         </Box>
     </Box>
-    </>
+    </section>
   )
 }
 

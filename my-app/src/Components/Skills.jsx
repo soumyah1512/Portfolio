@@ -14,12 +14,12 @@ const Skills = () => {
             <Flex>
                 <Box margin='10% auto' width='40%'>
                   <VStack gap='20'>
-                  <HStack gap='100px'>
+                  <HStack gap='50px'>
                     <SkillIcon icon={'html-1.png'} text={'HTML'}/>
                     <SkillIcon icon={'css-3.png'} text={'CSS'}/>
                     <SkillIcon icon={'logo-javascript.png'} text={'JS'}/>
                   </HStack>
-                  <HStack gap='50px'>
+                  <HStack gap='30px'>
                     <SkillIcon icon={'react-2.png'} text={'React'}/>
                     <SkillIcon icon={'redux.png'} text={'Redux'}/>
                     <SkillIcon icon={'Chakra.png'} text={'Chakra'}/>
