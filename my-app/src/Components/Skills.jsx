@@ -22,7 +22,7 @@ const Skills = () => {
                   <HStack gap='30px'>
                     <SkillIcon icon={'react-2.png'} text={'React'}/>
                     <SkillIcon icon={'redux.png'} text={'Redux'}/>
-                    <SkillIcon icon={'Chakra.png'} text={'Chakra'}/>
+                    <SkillIcon icon={'chakra.png'} text={'Chakra'}/>
                   </HStack>
                   </VStack>
                 </Box>
