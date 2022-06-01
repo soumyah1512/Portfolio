@@ -7,18 +7,18 @@ const Project = ({info}) => {
   return (
     <>
         <Center gap={10} margin='5%'>
-            <Box p={4} borderRadius='12px' width='90%'  boxShadow='2xl'>
+            <Box p={4} borderRadius='12px' width='90%'  boxShadow='2xl' backgroundColor='white'>
                 <VStack gap={4}>
                     <Box>
                         <Image src={info.gif}/>
                     </Box>
                     <Box>
-                        <Heading>
+                        <Heading size='lg'>
                             {info.title}
                             {/* Boat-lifestyle  */}
                         </Heading>
                         <br/>
-                        <Text noOfLines={4} color="blue.400">
+                        <Text noOfLines={4} color="blue.400" size='md'>
                             {info.description}
                         {/* BoAt is an India-based company which was incorporated in November 2013. BoAt markets earphones, headphones stereos, travel chargers, and premium rugged cables. */}
                         </Text>

@@ -9,6 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from 'react-responsive-carousel'
 
 const Projects = () => {
+  
   const info = {
     boat:{
       gif: 'boat.gif',
@@ -46,8 +47,8 @@ const Projects = () => {
                         ‹Projects›
                     </Heading>
                 </Box>
-                <Box margin='auto' width='50%' border='1px solid grey' borderRadius='6px'>
-                    <Carousel>
+                <Box margin='auto' width='50%' borderRadius='8px' background='black'>
+                    <Carousel useKeyboardArrows={true} infiniteLoop={true} autoPlay={true}>
                       <div>
                         <Project info={boat}/>
                       </div>

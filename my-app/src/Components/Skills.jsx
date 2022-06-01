@@ -19,7 +19,7 @@ const Skills = () => {
                     <SkillIcon icon={'css-3.png'} text={'CSS'}/>
                     <SkillIcon icon={'logo-javascript.png'} text={'JS'}/>
                   </HStack>
-                  <HStack gap='30px'>
+                  <HStack gap='50px'>
                     <SkillIcon icon={'react-2.png'} text={'React'}/>
                     <SkillIcon icon={'redux.png'} text={'Redux'}/>
                     <SkillIcon icon={'chakra.png'} text={'Chakra'}/>
