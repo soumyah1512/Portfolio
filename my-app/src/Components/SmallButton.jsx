@@ -1,11 +1,12 @@
 import { Button } from '@chakra-ui/react'
 import React from 'react'
 
-const SmallButton = ({text,section,onClick}) => {
+const SmallButton = ({text,section,onClick,width}) => {
 
   return (
     <div>
        <Button 
+       width={width}
        onClick={()=>onClick(section)}
        borderRadius={20} 
        padding='5px 20px' 

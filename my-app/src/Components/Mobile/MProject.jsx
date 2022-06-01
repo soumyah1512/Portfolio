@@ -1,8 +1,8 @@
 import { AspectRatio, Box, Center, Heading, HStack, Image, Link, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
-import SmallButton from './SmallButton'
+import SmallButton from '../SmallButton'
 
-const Project = ({info}) => {
+const MProject = ({info}) => {
 
   return (
     <>
@@ -13,16 +13,16 @@ const Project = ({info}) => {
                         <Image src={info.gif}/>
                     </Box>
                     <Box>
-                        <Heading size='lg'>
+                        <Heading size='md'>
                             {info.title}
                             {/* Boat-lifestyle  */}
                         </Heading>
                         <br/>
-                        <Text noOfLines={4} color="grey" size='md'>
+                        <Text noOfLines={4} color="grey" fontSize="10px">
                             {info.description}
                         {/* BoAt is an India-based company which was incorporated in November 2013. BoAt markets earphones, headphones stereos, travel chargers, and premium rugged cables. */}
                         </Text>
-                        <Text noOfLines={4} color="blue.400" fontSize="12px">
+                        <Text noOfLines={4} color="blue.400" fontSize="10px">
                             {info.tech}
                         </Text>
                     </Box>
@@ -44,4 +44,4 @@ const Project = ({info}) => {
   )
 }
 
-export default Project
+export default MProject

@@ -1,14 +1,15 @@
 import React from 'react'
-import { Box, Circle, Flex, Grid, GridItem, Heading, Image, Link, Spacer, Text } from '@chakra-ui/react'
+import { Box, Circle, Flex, Grid, GridItem, Heading, Image, Link, Spacer, Text, VStack } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { SiGmail, SiMedium } from 'react-icons/si'
 import { AiOutlineMail } from "react-icons/ai";
-import Project from './Project'
+import Project from '../Project'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from 'react-responsive-carousel'
+import MProject from './MProject'
 
-const Projects = () => {
+const MProjects = () => {
   
   const info = {
     boat:{
@@ -43,31 +44,33 @@ const Projects = () => {
     
     <>
     <Box width='100%' height='100%'>
-        <Box width='90%' height='80%' margin='auto'>
-            <Flex>
-                <Box margin='6%' >
-                    <Heading fontSize='6xl'>
-                        ‹Projects›
-                    </Heading>
-                </Box>
-                <Box margin='auto' width='50%' borderRadius='8px' background='black'>
+        <Box width='90%' height='90%' margin='auto'>
+            <VStack>
+                <Flex width='100%' sx={{justifyContent: 'start'}}>
+                    <Box margin='6%'>
+                        <Heading fontSize='4xl'>
+                            ‹Projects›
+                        </Heading>
+                    </Box>
+                </Flex>
+                <Box margin='auto' width='90%' borderRadius='8px' background='black'>
                     <Carousel useKeyboardArrows={true} infiniteLoop={true} autoPlay={true}>
                       <div>
-                        <Project info={boat}/>
+                        <MProject info={boat}/>
                       </div>
                       <div>
-                        <Project info={homedepot}/>
+                        <MProject info={homedepot}/>
                       </div>
                       <div>
-                        <Project info={kohls}/>
+                        <MProject info={kohls}/>
                       </div>
                     </Carousel>
                 </Box>
-            </Flex>
+            </VStack>
         </Box>
     </Box>
     </>
   )
 }
 
-export default Projects
+export default MProjects

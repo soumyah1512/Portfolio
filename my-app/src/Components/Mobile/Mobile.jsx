@@ -1,12 +1,13 @@
 import React, { useRef } from 'react'
-import About from './About'
-import Contact from './Contact'
-import Navbar from './Navbar'
-import Projects from './Projects'
-import Skills from './Skills'
-import AboutContent from './AboutContent'
 
-const Main = () => {
+import Navbar from './MNavbar'
+import MAbout from './MAbout'
+import MAboutContent from './MAboutContent'
+import MSkills from './MSkills'
+import MProjects from './MProjects'
+import MContact from './MContact'
+
+const Mobile = () => {
     const about = useRef(null)
     const skills = useRef(null)
     const projects = useRef(null)
@@ -26,27 +27,27 @@ const Main = () => {
         </div>
         <div id='home'>
             <section>
-                <About/>
+                <MAbout/>
             </section>
         </div>
         <div id='about'>
             <section >
-                <AboutContent/>
+                <MAboutContent/>
             </section>
         </div>
         <div id='skills'>
             <section >
-                <Skills/>
+                <MSkills/>
             </section>
         </div>
         <div id='projects'>
             <section>
-                <Projects/>
+                <MProjects/>
             </section>
         </div>
         <div id='contact'>
             <section>
-                <Contact/>
+                <MContact/>
             </section>
         </div>
     </div>
@@ -55,4 +56,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Mobile
