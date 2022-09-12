@@ -50,7 +50,7 @@ const Projects = () => {
                         ‹Projects›
                     </Heading>
                 </Box>
-                <Box margin='auto' width='50%' borderRadius='8px' background='black'>
+                <Box margin='auto' width='50vw' height='80vh' borderRadius='8px' background='black'>
                     <Carousel useKeyboardArrows={true} infiniteLoop={true} autoPlay={true}>
                       <div>
                         <Project info={boat}/>
