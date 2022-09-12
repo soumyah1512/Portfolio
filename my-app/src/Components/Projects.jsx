@@ -51,7 +51,7 @@ const Projects = () => {
                     </Heading>
                 </Box>
                 <Box margin='auto' width='50vw' height='75vh' borderRadius='8px' background='black'>
-                    <Carousel useKeyboardArrows={true} infiniteLoop={true} autoPlay={true}>
+                    <Carousel useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} showIndicators={false}>
                       <div>
                         <Project info={boat}/>
                       </div>
