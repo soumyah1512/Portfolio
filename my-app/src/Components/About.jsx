@@ -10,12 +10,12 @@ const About = () => {
                 <Box margin='10%' >
                     <Image src='draft2.png' width='350px'/>
                 </Box>
-                <Box margin='12% auto' >
+                <Box margin='12% auto' marginLeft='0'>
                     <Image src='hello.gif' width='250px'/>
                     <br/>
                     <Text fontSize='40px'>I am <b>Soumya</b>,</Text>
                     <br/>
-                    <Heading fontSize='60px' color='grey' bgGradient='linear(to-t, blue.200, teal.500)' bgClip='text'>Full-Stack Developer</Heading>
+                    <Heading fontSize='48px' color='grey' bgGradient='linear(to-t, blue.200, teal.500)' bgClip='text'>Full-Stack Developer</Heading>
                     <br/>
                     <br/>
                     <div style={{marginLeft: '70%'}}>

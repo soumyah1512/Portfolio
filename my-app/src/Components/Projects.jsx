@@ -22,7 +22,7 @@ const Projects = () => {
     homedepot:{
       gif: 'homedep.gif',
       title: 'Homedepot Clone',
-      description: 'Features: Social Sign-in/Sign-up Different sections as per product categories Cart, checkout and payments section',
+      description: 'Features: Social Sign-in/Sign-up checkout and payments section',
       tech: 'Tech Stack: HTML | CSS | JavaScript | Bootstrap',
       dep: 'https://visionary-pastelito-fbdbfd.netlify.app/',
       git: 'https://github.com/iShilajit/HomeDepotClone'
@@ -42,7 +42,7 @@ const Projects = () => {
   return (
     
     <>
-    <Box width='90vw' height='90vh'>
+    <Box width='90vw' height='80vh'>
         <Box width='90%' height='80%' margin='auto'>
             <Flex>
                 <Box margin='6%' >
@@ -50,7 +50,7 @@ const Projects = () => {
                         ‹Projects›
                     </Heading>
                 </Box>
-                <Box margin='auto' width='50vw' height='80vh' borderRadius='8px' background='black'>
+                <Box margin='auto' width='50vw' height='75vh' borderRadius='8px' background='black'>
                     <Carousel useKeyboardArrows={true} infiniteLoop={true} autoPlay={true}>
                       <div>
                         <Project info={boat}/>
