@@ -13,15 +13,19 @@ const Skills = () => {
         <Box width='90%' height='80%' margin='auto'>
             <Flex>
                 <Box margin='10% auto' width='40%'>
-                  <VStack gap='20'>
-                  <HStack gap='50px'>
+                  <VStack gap='8'>
+                  <HStack gap='8'>
                     <SkillIcon icon={'html-1.png'} text={'HTML'}/>
                     <SkillIcon icon={'css-3.png'} text={'CSS'}/>
                     <SkillIcon icon={'logo-javascript.png'} text={'JS'}/>
-                  </HStack>
-                  <HStack gap='50px'>
                     <SkillIcon icon={'react-2.png'} text={'React'}/>
                     <SkillIcon icon={'redux.png'} text={'Redux'}/>
+                  </HStack>
+                  <HStack gap='8'>
+                    <SkillIcon icon={'nodejs.png'} text={'NodeJS'}/>
+                    <SkillIcon icon={'express.png'} text={'Express'}/>
+                    <SkillIcon icon={'mongodb.png'} text={'MongoDB'}/>
+                    <SkillIcon icon={'Typescript.png'} text={'TS'}/>
                     <SkillIcon icon={'chakra.png'} text={'Chakra'}/>
                   </HStack>
                   </VStack>

@@ -35,10 +35,19 @@ const Projects = () => {
       dep: 'https://friendly-shirley-a1a2a5.netlify.app/',
       git: 'https://github.com/AkshayPatil96/Kohls'
     },
+    bewakoof:{
+      gif: 'bewakoof.gif',
+      title: 'Bewakoof Clone',
+      description: 'Features: Authentication & fully functional backend',
+      tech: 'Tech Stack: React | Redux | Node | Express | MongoDB',
+      dep: 'https://bewakoof-clone-nem201.netlify.app/',
+      git: 'https://github.com/ramakrushnapanda634/descriptive-payment-4603'
+    }
   }
   const boat = info.boat
   const homedepot = info.homedepot
   const kohls = info.kohls
+  const bewakoof = info.bewakoof
   return (
     
     <>
@@ -54,6 +63,9 @@ const Projects = () => {
                     <Carousel useKeyboardArrows={true} infiniteLoop={true} autoPlay={true} showIndicators={false}>
                       <div>
                         <Project info={boat}/>
+                      </div>
+                      <div>
+                        <Project info={bewakoof}/>
                       </div>
                       <div>
                         <Project info={homedepot}/>

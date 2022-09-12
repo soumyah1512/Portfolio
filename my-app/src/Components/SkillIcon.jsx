@@ -12,14 +12,19 @@ const SkillIcon = ({icon,text}) => {
         boxShadow='base'
         padding="28px 25px 0 25px" 
         borderRadius="10px" 
+        width='100px'
+        height='120px'
         sx={{transition: 'background ,color .5s'}}
         // transition="background .5s"
         color='white'
         _hover={{ backgroundColor:'white', color:'black'}}
         >
-          <Box width='60px' height='60px'>
+          <Center>
+
+          <Box width='40px' height='40px'>
             <Image src={icon}  />
           </Box>
+          </Center>
             <Center marginTop="16px">
               <Text fontWeight={'800'}>
                 {text}
