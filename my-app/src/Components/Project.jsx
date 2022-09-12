@@ -7,10 +7,10 @@ const Project = ({info}) => {
   return (
     <>
         <Center gap={10} margin='5%'>
-            <Box p={4} borderRadius='12px' width='90%'  boxShadow='2xl' backgroundColor='white' height='70vh'>
+            <Box p={4} borderRadius='12px' width='90%'  boxShadow='2xl' backgroundColor='white' height='65vh'>
                 <VStack gap={4}>
                     <Box>
-                        <Image src={info.gif}/>
+                        <Image src={info.gif} height='35vh'/>
                     </Box>
                     <Box>
                         <Heading size='lg'>

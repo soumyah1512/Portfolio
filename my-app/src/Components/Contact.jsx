@@ -8,7 +8,7 @@ import { AiOutlineMail } from "react-icons/ai";
 const Contact = () => {
   return (
     <>
-      <Box width='100%' height='100%'>
+      <Box width='100vw' height='100vh'>
         <Box width='90%' height='80%' margin='auto'>
             <Flex>
                 <Box margin='5% auto' width='40%'>

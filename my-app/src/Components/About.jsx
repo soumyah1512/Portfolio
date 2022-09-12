@@ -4,7 +4,7 @@ import SmallButton from './SmallButton'
 
 const About = () => {
   return (
-    <Box width='100%' height='100%'>
+    <Box width='90vw' height='90vh'>
         <Box width='90%' height='80%' margin='auto'>
             <Flex>
                 <Box margin='10%' >
