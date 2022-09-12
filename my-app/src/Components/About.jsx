@@ -19,7 +19,7 @@ const About = () => {
                     <br/>
                     <br/>
                     <div style={{marginLeft: '70%'}}>
-                        <Link sx={{textDecoration: 'none'}} href='https://docs.google.com/document/d/19408e1RJen4nZn-5lKWJhy5NQv9xKJwCo-STs6uHFy0/edit?usp=sharing' isExternal>
+                        <Link sx={{textDecoration: 'none'}} href='https://drive.google.com/file/d/1-a_iVLkcf2rR7nQo5B7xUwCVAfOYn0v-/view?usp=sharing' isExternal>
                             <SmallButton text='Resume ⟫'/>
                         </Link>
                     </div>
