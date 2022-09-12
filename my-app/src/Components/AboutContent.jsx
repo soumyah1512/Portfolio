@@ -21,7 +21,7 @@ const AboutContent = () => {
                     <Text fontSize='4xl' color='grey'>I am Soumya Hakke</Text>
                     <br/>
                     <br/>
-                    <Text fontSize='xl'>Dedicated and efficient, aspiring full-stack developer currently learning MERN stack. Curious to explore and learn new things . Seeking to further improve his skills in a challenging professional setting.</Text>
+                    <Text fontSize='xl'>Dedicated and efficient, aspiring full-stack developer currently learning MERN stack. Curious to explore and learn new things. Seeking to further improve his skills in a challenging professional setting.</Text>
                     <Spacer/>
                     <Flex templateColumns='repeat(5, 16px)' gap={6} flexDirection={'row-reverse'} marginTop='15%'>
                         <GridItem>
