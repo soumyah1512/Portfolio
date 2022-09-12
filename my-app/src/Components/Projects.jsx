@@ -22,7 +22,7 @@ const Projects = () => {
     homedepot:{
       gif: 'homedep.gif',
       title: 'Homedepot Clone',
-      description: 'Features: Social Sign-in/Sign-up checkout and payments section',
+      description: 'Features: Sign-in/Sign-up checkout payments section',
       tech: 'Tech Stack: HTML | CSS | JavaScript | Bootstrap',
       dep: 'https://visionary-pastelito-fbdbfd.netlify.app/',
       git: 'https://github.com/iShilajit/HomeDepotClone'
